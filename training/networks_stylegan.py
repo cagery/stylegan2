@@ -7,7 +7,7 @@
 """Network architectures used in the StyleGAN paper."""
 
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import dnnlib
 import dnnlib.tflib as tflib
 

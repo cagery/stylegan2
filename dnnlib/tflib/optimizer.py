@@ -8,7 +8,7 @@
 
 import platform
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from collections import OrderedDict
 from typing import List, Union

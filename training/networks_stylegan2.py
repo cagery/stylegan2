@@ -7,7 +7,7 @@
 """Network architectures used in the StyleGAN2 paper."""
 
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import dnnlib
 import dnnlib.tflib as tflib
 from dnnlib.tflib.ops.upfirdn_2d import upsample_2d, downsample_2d, upsample_conv_2d, conv_downsample_2d
